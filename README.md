@@ -21,7 +21,7 @@ Planned framework to connect engines as bot accounts.
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=18&color=8FA3D9&center=true&vCenter=true&width=420&height=40&duration=1&pause=1000000&letterSpacing=6px&lines=OVERVIEW" alt="Overview" /></p>
 
-Planned Python framework and docs to connect engines as signed bot accounts on the [server](https://github.com/corvin-chess/server) bot API, using the official [sdk](https://github.com/corvin-chess/sdk) clients once they exist. No bot runtime, adapter, or example package is in this repository yet. Everything chess-specific stays Corvin-original; this repository does not ship third-party engines or weights.
+Planned Python framework and docs to connect engines as signed bot accounts on the [server](https://github.com/corvin-chess/server) bot API once that API exists, using the official [sdk](https://github.com/corvin-chess/sdk) clients once they exist. No bot runtime, adapter, or example package is in this repository yet. Everything chess-specific stays Corvin-original; this repository does not ship third-party engines or weights.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0b0d12,35:8fa3d9,70:c9a227,100:0b0d12" width="100%" alt="" />
 
@@ -57,7 +57,7 @@ node scripts/verify-readme.mjs
 
 <p align="center"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=18&color=8FA3D9&center=true&vCenter=true&width=420&height=40&duration=1&pause=1000000&letterSpacing=6px&lines=ARCHITECTURE" alt="Architecture" /></p>
 
-Planned structure: a thin Python host that drives an engine process and plays moves through the server bot API via [sdk](https://github.com/corvin-chess/sdk). See organization ADRs and [website](https://github.com/corvin-chess/website) once docs are published.
+Planned structure: a thin Python host that drives an engine process and plays moves through the planned server bot API via [sdk](https://github.com/corvin-chess/sdk). See organization ADRs and [website](https://github.com/corvin-chess/website) once docs are published.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0b0d12,35:8fa3d9,70:c9a227,100:0b0d12" width="100%" alt="" />
 
